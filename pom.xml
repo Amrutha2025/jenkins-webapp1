@@ -16,7 +16,7 @@
     </properties>
 
     <dependencies>
-        <!-- Jakarta Servlet API for Tomcat 10 / 11 -->
+        <!-- Jakarta Servlet API for Tomcat 11 -->
         <dependency>
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
@@ -24,23 +24,6 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-
-    <build>
-        <finalName>java-webapp</finalName>
-    </build>
-
-</project>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-         http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.example</groupId>
-    <artifactId>java-webapp</artifactId>
-    <version>1.0</version>
-    <packaging>war</packaging>
 
     <build>
         <finalName>java-webapp</finalName>
